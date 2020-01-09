@@ -56,7 +56,6 @@ RMSE <- function(true_ratings = NULL, predicted_ratings = NULL) {
     sqrt(mean((true_ratings - predicted_ratings)^2))
 }
 ```   
-
 ```{r}
 edx %>% summarize(Users = n_distinct(userId),
               Movies = n_distinct(movieId)) %>% 
@@ -90,7 +89,6 @@ The features/variables/columns in both datasets are six:
 - **timestamp** ```<integer>``` that contains the timestamp for one specific rating provided by one user.
 - **title** ```<character>``` that contains the title of each movie including the year of the release.
 - **genres** ```<character>``` that contains a list of pipe-separated of genre of each movie.
-
 
 ```{r}
 head(edx) %>%
