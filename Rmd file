@@ -420,7 +420,6 @@ kable() %>%
                  font_size = 10,
                  full_width = FALSE)
 ```
-
 The features/variables/columns in both datasets are six:
 
 - **userId** ```<integer>``` that contains the unique identification number for each user.
