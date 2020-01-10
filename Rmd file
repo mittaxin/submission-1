@@ -10,6 +10,7 @@ output:
     highlight: pygments
     keep_tex: true
   html_document: default
+Otput: Rmd
 ---
 
 This is a code provided by EDX: 
